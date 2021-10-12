@@ -1,0 +1,9 @@
+h1{
+    font-size: 8rem;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+}
