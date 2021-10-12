@@ -29672,12 +29672,12 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function Pomodoro() {
-  var _useState = (0, _react.useState)(0),
+  var _useState = (0, _react.useState)(25),
       _useState2 = _slicedToArray(_useState, 2),
       minutes = _useState2[0],
       setMinutes = _useState2[1];
 
-  var _useState3 = (0, _react.useState)(5),
+  var _useState3 = (0, _react.useState)(0),
       _useState4 = _slicedToArray(_useState3, 2),
       seconds = _useState4[0],
       setSeconds = _useState4[1];
@@ -29788,7 +29788,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50055" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56254" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

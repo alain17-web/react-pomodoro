@@ -3,8 +3,8 @@ import './Pomodoro.css'
 
 export default function Pomodoro() {
 
-    const [minutes, setMinutes] = useState(0);
-    const [seconds, setSeconds] = useState(5);
+    const [minutes, setMinutes] = useState(25);
+    const [seconds, setSeconds] = useState(0);
     const [displayMessage, setDisplayMessage] = useState(false);
 
     useEffect(() => {
@@ -21,7 +21,7 @@ export default function Pomodoro() {
 
                     setSeconds(seconds);
                     setMinutes(minutes);
-                    setDisplayMessage(!displayMessage);
+                    setDisplayMessage(!displayMessage)
                 }
             }else{
                 setSeconds(seconds -1);
